@@ -2,7 +2,7 @@
 
 This repository contains the code and notes for the "RRF-January-2025-By-Rasel-Ahmed" YouTube course. The course is taught by Rasel Ahmed and provides foundational knowledge in web development. Below are the details and important notes from the first class.
 
-## Course Link
+## Class Link
 
 [Watch the course on YouTube](https://youtu.be/3L_G3B-Wtvs?si=O1-HfQidq-YeS7ro)
 
