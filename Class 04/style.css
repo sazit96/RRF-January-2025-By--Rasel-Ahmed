@@ -1,0 +1,121 @@
+/* Text and Font Styling */
+h1 {
+    color: dodgerblue;
+    font-size: 2rem;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    text-decoration: underline;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    word-spacing: 0.1em;
+  }
+  
+  h2 {
+    color: green;
+    font-size: 1.8rem;
+    font-family: Verdana, sans-serif;
+    font-style: italic;
+    text-align: left;
+    text-decoration: overline;
+  }
+  
+  h3 {
+    color: blueviolet;
+    text-align: right;
+    line-height: 2;
+  }
+  
+  /* Box Model (Margin, Padding, Borders) */
+  #IM-id {
+    font-size: x-large;
+    text-align: center;
+    color: orange;
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid orange;
+  }
+  
+  /* Background and Colors */
+  .second-way-css {
+    background-color: orange;
+  }
+  
+  .third-way-css {
+    background-color: chartreuse;
+  }
+  
+  .box-style {
+    border: 5px solid blue;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: #f5f5f5;
+  }
+  
+  /* Positioning and Layout */
+  .box-group {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  
+  .box-style h1 {
+    border-bottom: 2px dotted black;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .box-style p {
+    color: dodgerblue;
+    overflow: hidden;
+    text-align: justify;
+  }
+  
+  /* Styling Lists (if needed for future use) */
+  ul {
+    list-style-type: square;
+    list-style-position: inside;
+  }
+  
+  /* Borders and Shadows */
+  .box-style {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  h1 {
+    text-shadow: 2px 2px 5px gray;
+  }
+  
+  /* Flexbox (For Layouts) */
+  .box-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .box-group .box-style {
+    flex: 1;
+    max-width: 30%;
+  }
+  
+  /* Other Useful Properties */
+  p:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+  
+  h1 {
+    transition: color 0.3s ease;
+  }
+  
+  h1:hover {
+    color: red;
+  }
+  
+  /* Example of Group Selector */
+  h1, h2, h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
